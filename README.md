@@ -132,16 +132,6 @@ When a proxy or connection failure occurs the task is skipped but the overall ru
 
 ---
 
-## Example run script snippet (safeguard)
-
-Add this check in `main()` before launching the asynchronous run:
-
-```python
-if args.target and not args.confirm == "I_HAVE_PERMISSION":
-    print("[!] You must confirm authorization by passing --confirm I_HAVE_PERMISSION")
-    return
-```
-
 ---
 
 ## License
