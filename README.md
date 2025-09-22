@@ -6,7 +6,7 @@ Gorilla is a Layer-7 DDOS tool for testing, stress simulation, and load benchmar
 > ⚠️ **Important:** Use **only** on systems you own or where you have explicit written permission to run load tests. Unauthorized use against third-party hosts is illegal and may result in criminal or civil penalties. The author is not responsible for misuse.
 
 ---
-![Gorilla Logo](./images/gorilla.png)
+![Gorilla Logo](./gorilla.png)
 
 ## Features
 
