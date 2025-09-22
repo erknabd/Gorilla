@@ -1,6 +1,6 @@
 # Gorilla — Layer-7 DDOS Tool
 
-🐵 **Gorilla** is a high-performance Layer-7 DDOS tool designed for controlled performance testing, benchmarking and simulation.
+Gorilla is a Layer-7 DDOS tool for testing, stress simulation, and load benchmarking on web servers. 
 
 > ⚠️ **Important:** Use **only** on systems you own or where you have explicit written permission to run load tests. Unauthorized use against third-party hosts is illegal and may result in criminal or civil penalties. The author is not responsible for misuse.
 
