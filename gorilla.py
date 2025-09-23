@@ -124,6 +124,7 @@ async def run_test(target: str, total: int, concurrency: int, proxies: list[str]
 # ------------------------
 # Main
 # ------------------------
+
 def main():
     print(GORILLA_ART)
     print(" Gorilla DDOS Tool \n")
@@ -138,6 +139,10 @@ def main():
 
     args = parser.parse_args()
 
+    # URL kontrolü ve protokol ekleme
+    if not args.target.startswith(("http://", "https://")):
+        args.target = "http://" + args.target
+
     proxies = load_proxies(args.proxies)
 
     print(f"Starting test: target={args.target}, total={args.total}, concurrency={args.concurrency}\n")
@@ -148,6 +153,7 @@ def main():
         print("\n[!] Test interrupted by user. Exiting gracefully...")
 
     print("\nTest completed successfully!")
+
 
 # ------------------------
 # Entry Point
