@@ -36,7 +36,7 @@ aiohttp==3.9.3
 
 ```bash
 # clone repository (or place gorilla.py in a folder)
-git clone https://github.com/yourusername/gorilla.git
+git clone https://github.com/erknabd/gorilla.git
 cd gorilla
 
 
